@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <script defer src="./assets/js/nav.js"></script>
+    <script defer src="./assets/js/index.js"></script>
+    <title>Home</title>
+</head>
+
+<body>
+    <header class="navbar bg-dark">
+        <div class="navbar-header d-flex align-center">
+            <div class="navbar-icon-container d-flex align-center gap-1">
+                <picture class="navbar-icon bg-image d-flex align-center justify-center">
+                    <img class="porcent-4" src="./assets/img/icon/Polygon-1.svg" alt="polygon-1-icon">
+                </picture>
+                <a href="#">
+                    <h4>Personal</h4>
+                </a>
+            </div>
+            <button aria-expanded="false" class="navbar-toogle d-flex" aria-controls="navbar-container">
+                <div></div>
+                <div></div>
+                <div></div>
+            </button>
+        </div>
+
+        <nav id="navbar-container" data-visible="false" class="navbar-container">
+            <ul class="navbar-list d-flex flex-col gap-2">
+                <li class="navbar-item t-h5"><a href="#about">About</a></li>
+                <li class="navbar-item t-h5"><a href="#">Services</a></li>
+                <li class="navbar-item t-h5"><a href="#">Portfolio</a></li>
+                <li class="navbar-item t-h5"><a href="#">Blog</a></li>
+            </ul>
+            <button class="btn btn-transparent">CONTACT</button>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section id="main" class="section-lg bg-dark">
+            <div class="section-main d-flex flex-col gap-2 align-center justify-center">
+                <picture>
+                    <img class="w-100" src="./assets/img/home/main-img.svg" alt="main-image">
+                </picture>
+                <div class="section-main-body d-flex flex-col gap-1">
+                    <h5 class="orange-title">GABRIEL PIRES</h5>
+                    <h1>The Simple,
+                        Clean Design</h1>
+                    <p class="p-gray">Agency provides a full service range including technical skills, design, business
+                        understanding.</p>
+                    <div class="main-btn">
+                        <button class="btn btn-orange">SEE MY WORK</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sevice" class="section-lg bg-light">
+            <div class="section-service d-flex flex-col gap-2 align-center">
+                <h5 class="orange-title">SERVICE</h5>
+                <h2 class="text-center">How I Can Help <br>
+                    You With</h2>
+                <div class="section-service-cards">
+                    <div class="service-card d-flex flex-col gap-1">
+                        <div class="d-flex align-center gap-1 card-title">
+                            <figure class="icon-md icon-orange"><i class="bi bi-clipboard-fill"></i></figure>
+                            <h4>Design</h4>
+                        </div>
+                        <div class="card-text">
+                            <p class="p-brown">Agency is a business you hire to outsource your digital marketing
+                                efforts, instead of handling in-house.</p>
+                        </div>
+                        <div class="card-footer d-flex gap-1 align-center">
+                            <figure class="icon icon-btn icon-white"><i class="bi bi-plus"></i></figure>
+                            <span>Learn More</span>
+                        </div>
+                    </div>
+
+                    <div class="service-card d-flex flex-col gap-1">
+                        <div class="card-title d-flex align-center gap-1">
+                            <figure class="icon-md icon-orange"><i class="bi bi-briefcase-fill"></i></figure>
+                            <h4>Development</h4>
+                        </div>
+                        <div class="card-text">
+                            <p class="p-brown">Hire to outsource your digital marketing efforts, instead of handling
+                                in-house can provide your business.</p>
+                        </div>
+                        <div class="card-footer d-flex gap-1 align-center">
+                            <figure class="icon icon-btn icon-white"><i class="bi bi-plus"></i></figure>
+                            <span>Learn More</span>
+                        </div>
+                    </div>
+                </div>
+                <span>Want more service? <a class="a-brown" href="#">Explore Now</a></span>
+            </div>
+        </section>
+
+        <section id="portfolio" class="section-lg bg-dark">
+            <div class="section-portfolio d-flex flex-col gap-1 w-100">
+                <h5 class="orange-title">PORTFOLIO</h5>
+                <div class="section-portfolio-title d-flex flex-col gap-1">
+                    <h2>Latest Work</h2>
+                    <div class="portfolio-btn">
+                        <button class="btn btn-transparent">EXPLORE MORE</button>
+                    </div>
+                </div>
+                <div class="section-portfolio-galery d-flex flex-col align-center">
+                    <picture class="img-container">
+                        <img src="./assets/img/home/portfolio-img-1.svg" alt="portfolio-img-1">
+                    </picture>
+                    <picture class="img-container">
+                        <img src="./assets/img/home/portfolio-img-2.svg" alt="portfolio-img-2">
+                    </picture>
+                    <picture class="img-container">
+                        <img src="./assets/img/home/portfolio-img-3.svg" alt="portfolio-img-3">
+                    </picture>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="section-lg bg-light">
+            <div class="section-experience d-flex flex-col align-center justify-center w-100">
+                <picture class="d-flex align-center justify-center w-100">
+                    <img class="w-100" src="./assets/img/home/experience-img.svg" alt="experience-img">
+                </picture>
+                <div class="section-experience-info d-flex flex-col gap-1">
+                    <h5 class="orange-title">GABRIEL PIRES</h5>
+                    <h2>Professional
+                        Web Designer</h2>
+                    <span class="t-big">Provides a full service range</span>
+                    <p class="p-brown">Ability to put themselves in the merchant's shoes. It is meant to partner on the
+                        long run, and work as an extension of
+                        the merchant's team.</p>
+                    <div class="experience-btn">
+                        <button class="btn btn-white">ABOUT ME</button>
+                    </div>
+                </div>
+                <div class="section-experience-cards d-flex flex-col w-100">
+                    <div class="experience-card w-100">
+                        <figure class="icon-lg icon-orange"><i class="bi bi-calendar2-check-fill"></i></figure>
+                        <div class="card-body">
+                            <h3>42%</h3>
+                            <span class="t-big">Years of experience</span>
+                        </div>
+                    </div>
+                    <div class="experience-card w-100">
+                        <figure class="icon-lg icon-orange"><i class="bi bi-briefcase-fill"></i></figure>
+                        <div class="card-body">
+                            <h3>73+</h3>
+                            <span class="t-big">Projects Done</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="section-lg bg-dark">
+            <div class="section-features d-flex flex-col align-center justify-center w-100">
+                <picture>
+                    <img src="./assets/img/home/features-img.svg" alt="features-image">
+                </picture>
+                <div class="section-features-info d-flex flex-col gap-1">
+                    <h5 class="orange-title">FEATURES</h5>
+                    <h2>Give Your Site <br> A New Look</h2>
+                    <p class="t-big">Service range including technical skills, design, business understanding.</p>
+                    <div class="features-info-list d-flex flex-col">
+                        <div class="list-item d-flex align-center gap-1">
+                            <figure class="icon icon-orange"><i class="bi bi-check2"></i></figure>
+                            <span class="p-light-gray">Range including technical skills</span>
+                        </div>
+                        <div class="list-item d-flex align-center gap-1">
+                            <figure class="icon icon-orange"><i class="bi bi-check2"></i></figure>
+                            <span class="p-light-gray">Business understanding</span>
+                        </div>
+                        <div class="list-item d-flex align-center gap-1">
+                            <figure class="icon icon-orange"><i class="bi bi-check2"></i></figure>
+                            <span class="p-light-gray">Partner on the long run</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="absolute-icon">
+            <figure class="icon d-flex align-center justify-center">
+                <i class="bi bi-gift-fill"></i>
+            </figure>
+        </div>
+
+        <section id="get-started" class="section-sm bg-light-cream">
+            <div class="section-get-started d-flex flex-col align-center justify-center gap-2 w-100">
+
+                <div class="get-started-title d-flex flex-col gap-1 w-100">
+                    <h5 class="orange-title">GET STARTED</h5>
+                    <h4>I Help Companies <br> Move Faster</h4>
+                    <div class="title-btn">
+                        <button class="btn btn-orange">CONTACT ME</button>
+                    </div>
+                </div>
+                <div class="get-started-text w-100">
+                    <p class="p-brown">Put themselves in the merchant's shoes. It is meant to partner on the long run.
+                    </p>
+                </div>
+                <picture class="w-100 d-flex justify-center align-center">
+                    <img src="./assets/img/home/get-started-block.svg" alt="get-started-block">
+                </picture>
+            </div>
+        </section>
+
+        <section id="testimonials" class="section-lg bg-light">
+            <div class="section-testimonials d-flex flex-col align-center justify-center w-100 gap-2">
+                <h5 class="orange-title">TESTIMONIALS</h5>
+                <h2>What My <br> Clients Saying</h2>
+
+                <div class="testimonials-cards">
+
+                    <div class="card-container d-flex flex-col gap-2" first-selected="false">
+                        <div class="card-ranking">
+                            <span><i class="bi bi-star-fill"></i></span>
+                            <span><i class="bi bi-star-fill"></i></span>
+                            <span><i class="bi bi-star-fill"></i></span>
+                            <span><i class="bi bi-star-fill"></i></span>
+                            <span><i class="bi bi-star-fill"></i></span>
+                        </div>
+                        <div class="card-text">
+                            <p class="p-brown">Outsource your digital marketing efforts, instead of handling in-house.
+                                They can provide your business with a variety.</p>
+                        </div>
+                        <div class="card-client d-flex align-center gap-1">
+                            <picture>
+                                <img src="./assets/img/home/testimonial-customer-1.svg" alt="customer-1">
+                            </picture>
+                            <div class="card-name d-flex flex-col gap-1">
+                                <h4>Graham Griffiths</h4>
+                                <span>Twiter</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-container d-flex flex-col gap-2" second-selected="true">
+                        <div class="card-ranking">
+                            <span><i class="bi bi-star-fill"></i></span>
+                            <span><i class="bi bi-star-fill"></i></span>
+                            <span><i class="bi bi-star-fill"></i></span>
+                            <span><i class="bi bi-star-fill"></i></span>
+                            <span><i class="bi bi-star-fill"></i></span>
+                        </div>
+                        <div class="card-text">
+                            <p class="p-brown">A digital agency is a business you hire to outsource your digital
+                                marketing efforts, instead of handling in-house. They
+                                can provide your business with a variety of digital solutions.</p>
+                        </div>
+                        <div class="card-client d-flex align-center gap-1">
+                            <picture>
+                                <img src="./assets/img/home/testimonial-customer-2.svg" alt="customer-2">
+                            </picture>
+                            <div class="card-name d-flex flex-col gap-1">
+                                <h4>Alan Martí</h4>
+                                <span>Meta Inc.</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-container d-flex flex-col gap-2" third-selected="false">
+                        <div class="card-ranking">
+                            <span><i class="bi bi-star-fill"></i></span>
+                            <span><i class="bi bi-star-fill"></i></span>
+                            <span><i class="bi bi-star-fill"></i></span>
+                            <span><i class="bi bi-star-fill"></i></span>
+                            <span><i class="bi bi-star-fill"></i></span>
+                        </div>
+                        <div class="card-text">
+                            <p class="p-brown">Provide your business with a variety of digital solutions to promote your
+                                product or service online.</p>
+                        </div>
+                        <div class="card-client d-flex align-center gap-1">
+                            <picture>
+                                <img src="./assets/img/home/testimonial-customer-3.svg" alt="customer-3">
+                            </picture>
+                            <div class="card-name d-flex flex-col gap-1">
+                                <h4>Richardo Kann</h4>
+                                <span>Photogram</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="testimonials-btn">
+                    <button class="btn btn-white">SEEL ALL</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="section-lg bg-dark">
+            <div class="section-faq d-flex flex-col align-center justify-center gap-2 w-100">
+                <div class="faq-info d-flex flex-col gap-1">
+                    <h5 class="orange-title">FAQ</h5>
+                    <h3>Frequently Asked <br> Questions</h3>
+                    <p class="p-gray">A digital agency is a business you hire to outsource your digital marketing
+                        efforts, instead of handling in-house.</p>
+                    <span><a class="a-white" href="#">Contact Me</a></span>
+                </div>
+                <div class="faq-cards">
+
+                    <div one-open="true" class="card-container d-flex flex-col gap-1">
+                        <div class="card-title d-flex align-center">
+                            <h4>A digital agency is a business</h4>
+                            <figure class="icon icon-btn icon-orange one-closed"><i class="bi bi-caret-down-fill"></i>
+                            </figure>
+                            <figure class="icon icon-btn icon-orange one-open"><i class="bi bi-caret-up-fill"></i>
+                            </figure>
+                        </div>
+                        <div class="card-body">
+                            <p class="p-brown">Digital marketing efforts, instead of handling in-house. They can provide
+                                your business with a
+                                variety of digital
+                                solutions to promote your product or service online and help you hit your marketing
+                                goals and grow your business.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div two-open="false" class="card-container d-flex flex-col gap-1">
+                        <div class="card-title d-flex align-center">
+                            <h4>Hire to outsource your digital</h4>
+                            <figure class="icon icon-btn icon-orange two-closed"><i class="bi bi-caret-down-fill"></i>
+                            </figure>
+                            <figure class="icon icon-btn icon-orange two-open"><i class="bi bi-caret-up-fill"></i>
+                            </figure>
+                        </div>
+                        <div class="card-body">
+                            <p class="p-brown">Digital marketing efforts, instead of handling in-house. They can provide
+                                your business with
+                                a
+                                variety of digital
+                                solutions to promote your product or service online and help you hit your marketing
+                                goals and grow your
+                                business.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div three-open="false" class="card-container d-flex flex-col gap-1">
+                        <div class="card-title d-flex align-center">
+                            <h4>Marketing efforts</h4>
+                            <figure class="icon icon-btn icon-orange three-closed"><i class="bi bi-caret-down-fill"></i>
+                            </figure>
+                            <figure class="icon icon-btn icon-orange three-open"><i class="bi bi-caret-up-fill"></i>
+                            </figure>
+                        </div>
+                        <div class="card-body">
+                            <p class="p-brown">Digital marketing efforts, instead of handling in-house. They can provide
+                                your business with
+                                a
+                                variety of digital
+                                solutions to promote your product or service online and help you hit your marketing
+                                goals and grow your
+                                business.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div four-open="false" class="card-container d-flex flex-col gap-1">
+                        <div class="card-title d-flex align-center">
+                            <h4>Can provide your business</h4>
+                            <figure class="icon icon-btn icon-orange four-closed"><i class="bi bi-caret-down-fill"></i>
+                            </figure>
+                            <figure class="icon icon-btn icon-orange four-open"><i class="bi bi-caret-up-fill"></i>
+                            </figure>
+                        </div>
+                        <div class="card-body">
+                            <p class="p-brown">Digital marketing efforts, instead of handling in-house. They can provide
+                                your business with
+                                a
+                                variety of digital
+                                solutions to promote your product or service online and help you hit your marketing
+                                goals and grow your
+                                business.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-sponsors d-flex gap-2 align-center justify-center w-100">
+
+                    <picture>
+                        <img src="./assets/img/home/faq-sponsor-1.svg" alt="sponsor-1">
+                    </picture>
+
+                    <picture>
+                        <img src="./assets/img/home/faq-sponsor-2.svg" alt="sponsor-1">
+                    </picture>
+
+                    <picture>
+                        <img src="./assets/img/home/faq-sponsor-3.svg" alt="sponsor-1">
+                    </picture>
+
+                    <picture>
+                        <img src="./assets/img/home/faq-sponsor-4.svg" alt="sponsor-1">
+                    </picture>
+
+                    <picture>
+                        <img src="./assets/img/home/faq-sponsor-5.svg" alt="sponsor-1">
+                    </picture>
+                </div>
+            </div>
+        </section>
+
+        <section id="blog" class="section-lg bg-light">
+            <div class="section-blog d-grid align-center gap-1 w-100">
+                <div class="blog-title d-flex flex-col gap-2">
+                    <h5 class="orange-title">OUR BLOG</h5>
+                    <div class="blog-title-cta d-flex flex-col gap-2">
+                        <h2>Latest Blog <br> Articles</h2>
+                        <div class="blog-btn">
+                            <button class="btn btn-white">DISCOVER ALL</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-main d-flex flex-col gap-1">
+                    <picture class="w-100">
+                        <img class="w-100" src="./assets/img/home/blog-main-img.svg" alt="blog-main-image">
+                    </picture>
+                    <span class="t-big">Stories</span>
+                    <h4 class="h4-to-h3 w-100">Agency is a business you hire to outsource</h4>
+                    <span>5 Nov, 2021</span>
+                </div>
+                <div class="blog-second d-flex flex-col gap-1">
+
+                    <div class="blog-article d-flex flex-col gap-1">
+                        <picture class="w-100">
+                            <img src="./assets/img/home/blog-article-img-1.svg" alt="article-image-1">
+                        </picture>
+                        <span class="t-big">Design</span>
+                        <h4>Outsource your digital marketing efforts</h4>
+                        <span>29 Oct, 2021</span>
+                    </div>
+
+                    <div class="blog-article d-flex flex-col gap-1">
+                        <picture class="w-100">
+                            <img src="./assets/img/home/blog-article-img-2.svg" alt="article-image-2">
+                        </picture>
+                        <span class="t-big">Marketing</span>
+                        <h4>Your business with a variety of digital</h4>
+                        <span>21 Oct, 2021</span>
+                    </div>
+
+                </div>
+
+                <hr>
+
+                <div class="blog-footer d-flex flex-col gap-1">
+                    <div class="blog-footer-text d-flex flex-col gap-1">
+                        <h4>Newsletter</h4>
+                        <p class="p-brown">A digital agency is a business you hire to outsource</p>
+                    </div>
+                    <form class="blog-footer-form d-flex flex-col w-100 gap-1">
+                        <input class="input w-100" type="text" name="email" id="email" placeholder="Your email">
+                        <button class="btn btn-white">SUBSCRIBE</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact-me" class="section-lg bg-dark">
+            <div class="section-contact d-grid w-100 align-center justify-center gap-3">
+                <div class="contact-form d-flex flex-col gap-2">
+                    <h4>Get In Touch</h4>
+                    <form class="d-flex flex-col gap-1">
+                        <input class="input w-100" type="text" name="email" id="email" placeholder="Your email">
+                        <input class="input w-100" type="text" name="subject" id="subject" placeholder="Subject">
+                        <textarea class="input w-100" name="message" id="message" cols="30" rows="10"
+                            placeholder="Message"></textarea>
+                    </form>
+                    <div class="form-btn d-flex">
+                        <button class="btn btn-orange">SUBMIT NOW</button>
+                    </div>
+                </div>
+                <div class="contact-info d-flex flex-col gap-2">
+                    <h5 class="orange-title">CONTACT</h5>
+                    <h3>Contact Me</h3>
+                    <p class="p-gray">A digital agency is a business you hire to outsource your digital marketing
+                        efforts, instead of handling in-house.</p>
+
+                    <div class="contact-info-list d-flex flex-col gap-2">
+
+                        <div class="contact-info-item d-flex gap-1 align-center">
+                            <figure class="icon icon-orange"><i class="bi bi-compass-fill"></i></figure>
+                            <span class="t-big">2247 Lunetta Street, TX 76301</span>
+                        </div>
+
+                        <div class="contact-info-item d-flex gap-1 align-center">
+                            <figure class="icon icon-orange"><i class="bi bi-telephone-fill"></i></figure>
+                            <span class="t-big">+1 (234) 567-89-00</span>
+                        </div>
+
+                        <div class="contact-info-item d-flex gap-1 align-center">
+                            <figure class="icon icon-orange"><i class="bi bi-envelope-fill"></i></figure>
+                            <span class="t-big">info@agency.com</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="your-dream" class="section-lg bg-light">
+            <div class="section-dream d-grid w-100 align-center justify-center gap-1">
+                <picture class="w-100">
+                    <img src="./assets/img/home/dream-main-image.svg" alt="dream-section-main-image">
+                </picture>
+                <div class="dream-info d-flex flex-col gap-1">
+                    <h5 class="orange-title">GABRIEL PIRES</h5>
+                    <h2>Help To Build <br>
+                        Your Dream <br>
+                        Project</h2>
+                    <p class="p-brown">A digital agency is a business you hire to outsource your digital marketing
+                        efforts, instead of handling in-house.</p>
+                    <div class="dream-ifon-btn">
+                        <button class="btn btn-orange">CONTACT ME</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="dream-galery d-grid justify-center">
+            <img src="./assets/img/home/dream-galery-1.svg" alt="dream-galery-1">
+            <img src="./assets/img/home/dream-galery-2.svg" alt="dream-galery-2">
+            <img src="./assets/img/home/dream-galery-3.svg" alt="dream-galery-3">
+            <img src="./assets/img/home/dream-galery-4.svg" alt="dream-galery-4">
+            <img src="./assets/img/home/dream-galery-5.svg" alt="dream-galery-5">
+            <img src="./assets/img/home/dream-galery-6.svg" alt="dream-galery-6">
+        </section>
+
+    </main>
+
+    <footer class="section-sm bg-dark">
+
+        <div class="section-footer d-flex flex-col justify-center align-center w-100 gap-4">
+        
+            <h4>Personal</h4>
+        
+            <div class="sec menu-sec">
+                <h5 class="orange-title">MENU</h5>
+                <ul>
+                    <li><a class="a-white" href="#">About</a></li>
+                    <li><a class="a-white" href="#">Services</a></li>
+                    <li><a class="a-white" href="#">Blog</a></li>
+                    <li><a class="a-white" href="#">Contact</a></li>
+                </ul>
+            </div>
+        
+            <div class="sec service-sec">
+                <h5 class="orange-title">SERVICE</h5>
+                <ul>
+                    <li><a class="a-white" href="#">Design</a></li>
+                    <li><a class="a-white" href="#">Development</a></li>
+                    <li><a class="a-white" href="#">Marketing</a></li>
+                    <li><a class="a-white" href="#">See More</a></li>
+                </ul>
+            </div>
+        
+            <div class="social-media d-flex align-center justify-center gap-1">
+                <figure class="icon icon-orange icon-btn"><i class="bi bi-facebook"></i></figure>
+                <figure class="icon icon-orange icon-btn"><i class="bi bi-twitter"></i></figure>
+                <figure class="icon icon-orange icon-btn"><i class="bi bi-instagram"></i></figure>
+            </div>
+        
+            <hr>
+        
+            <div class="copyright d-flex flex-col gap-2 w-100">
+                <p class="p-gray">Copyright © 2022 Laaqiq. All Rights Reserved.</p>
+                <div class="conditions d-flex">
+                    <a class="a-white" href="#">Terms of Use</a>
+                    <a class="a-white" href="#">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
