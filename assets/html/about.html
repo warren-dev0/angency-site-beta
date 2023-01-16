@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <script defer src="../js/index.js"></script>
+    <script defer src="../js/nav.js"></script>
+    <title>Home</title>
+</head>
+
+<body id="about">
+    <header class="navbar bg-dark">
+        <div class="navbar-header d-flex align-center">
+            <div class="navbar-icon-container d-flex align-center gap-1">
+                <picture class="navbar-icon bg-image d-flex align-center justify-center">
+                    <img class="porcent-4" src="../img/icon/Polygon-1.svg" alt="polygon-1-icon">
+                </picture>
+                <a href="/index.html">
+                    <h4>Personal</h4>
+                </a>
+            </div>
+            <button aria-expanded="false" class="navbar-toogle d-flex" aria-controls="navbar-container">
+                <div></div>
+                <div></div>
+                <div></div>
+            </button>
+        </div>
+
+        <nav id="navbar-container" data-visible="false" class="navbar-container">
+            <ul class="navbar-list d-flex flex-col gap-2">
+                <li class="navbar-item t-h5"><a href="#">About</a></li>
+                <li class="navbar-item t-h5"><a href="#">Services</a></li>
+                <li class="navbar-item t-h5"><a href="#">Portfolio</a></li>
+                <li class="navbar-item t-h5"><a href="#">Blog</a></li>
+            </ul>
+            <button class="btn btn-transparent">CONTACT</button>
+        </nav>
+
+    </header>
+
+    <main>
+        <section id="about-main" class="section-sm bg-dark">
+            <div class="section-about-main d-flex flex-col align-center t-center w-100 gap-1">
+                <h1>About Me</h1>
+                <p class="p-gray">Agency provides a full service range including technical skills, design, business
+                    understanding.</p>
+            </div>
+        </section>
+
+        <section id="about-experience" class="section-lg bg-light">
+            <div class="section-about-experience d-flex flex-col align-center w-100 gap-2">
+                <picture class="w-100">
+                    <img src="../img/about/about-picture.svg" alt="about-main-image">
+                </picture>
+
+                <div class="about-experience-info d-flex flex-col w-100 gap-2">
+                    <h5 class="orange-title">GABRIEL PIRES</h5>
+                    <h2>Professional Web Designer</h2>
+                    <p class="p-brown">
+                        Ability to put themselves in the merchant's shoes. It is meant to partner on the long run, and
+                        work as an extension of
+                        the merchant's team.
+                    </p>
+                    <p class="p-brown">
+                        A digital agency is a business you hire to outsource your digital marketing efforts, instead of
+                        handling in-house. They
+                        can provide your business with a variety of digital solutions to promote your product or service
+                        online and help you.
+                    </p>
+                </div>
+
+                <div class="about-experience-cards d-flex flex-col w-100">
+                    <div class="experience-card w-100">
+                        <figure class="icon-lg icon-orange"><i class="bi bi-calendar2-check-fill"></i></figure>
+                        <div class="card-body">
+                            <h3>42%</h3>
+                            <span class="t-big">Years of experience</span>
+                        </div>
+                    </div>
+                    <div class="experience-card w-100">
+                        <figure class="icon-lg icon-orange"><i class="bi bi-briefcase-fill"></i></figure>
+                        <div class="card-body">
+                            <h3>73+</h3>
+                            <span class="t-big">Projects Done</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about-video-reel" class="section-lg bg-light">
+            <div class="section-about-video-reel d-flex flex-col gap-1 w-100">
+                <h5 class="orange-title">VIDEO REEL</h5>
+                <h3>Unlock The Greatest Value Possible</h3>
+                <p class="p-brown">Design, business understanding, ability to put themselves in the merchant's shoes meant to partner.</p>
+                <video class="w-100" controls loop muted autoplay>
+                    <source src="../img/about/video-reel.mp4" type="video/mp4" />
+                </video>
+                <p class="p-brown">Ability to put themselves in the merchant's shoes. It is meant to partner on the long run, and work as an extension of
+                the merchant's team.</p>
+                <p class="p-brown">
+                    A digital agency is a business you hire to outsource your digital marketing efforts, instead of handling in-house. They
+                    can provide your business with a variety of digital solutions to promote your product or service online and help you.
+                </p>
+            </div>
+
+            <hr class="about-hr">
+        </section>
+
+        <section class="section-lg bg-light">
+            <div class="about-founder d-flex flex-col align-center gap-1 w-100">
+                <div class="founder-info d-flex flex-col gap-2">
+                    <img src="../img/about/founder-quotes.svg" alt="fouder-quotes-image">
+                    <h5 class="orange-title">FOUNDER WORDS</h5>
+                    <h3>Digital agency is a business you hire to outsource your digital marketing efforts</h3>
+                    <span class="t-big">Gabriel Pires</span>
+                    <span>Founder</span>
+                </div>
+                <hr class="about-hr">
+                <div class="founder-sponsors d-flex gap-2 align-center justify-center w-100">
+                    <picture>
+                        <img src="../img/about/founder-sponsor-1.svg" alt="sponsor-1">
+                    </picture>
+                    <picture>
+                        <img src="../img/about/founder-sponsor-2.svg" alt="sponsor-2">
+                    </picture>
+                    <picture>
+                        <img src="../img/about/founder-sponsor-3.svg" alt="sponsor-3">
+                    </picture>
+                    <picture>
+                        <img src="../img/about/founder-sponsor-4.svg" alt="sponsor-4">
+                    </picture>
+                    <picture>
+                        <img src="../img/about/founder-sponsor-5.svg" alt="sponsor-5">
+                    </picture>
+                </div>
+            </div>
+        </section>
+
+        <div class="about-absolute-icon">
+            <figure class="icon d-flex align-center justify-center">
+                <i class="bi bi-gift-fill"></i>
+            </figure>
+        </div>
+
+        <section id="about-get-started" class="section-sm bg-light-cream">
+            <div class="about-get-started d-flex flex-col align-center justify-center gap-2 w-100">
+        
+                <div class="get-started-title d-flex flex-col gap-1 w-100">
+                    <h5 class="orange-title">GET STARTED</h5>
+                    <h4>I Help Companies <br> Move Faster</h4>
+                    <div class="title-btn">
+                        <button class="btn btn-orange">CONTACT ME</button>
+                    </div>
+                </div>
+                <div class="get-started-text w-100">
+                    <p class="p-brown">Put themselves in the merchant's shoes. It is meant to partner on the long run.
+                    </p>
+                </div>
+                <picture class="w-100 d-flex justify-center align-center">
+                    <img src="../img/home/get-started-block.svg" alt="get-started-block">
+                </picture>
+            </div>
+        </section>
+    </main>
+
+    <footer class="section-sm bg-dark">
+
+        <div class="section-footer d-flex flex-col justify-center align-center w-100 gap-4">
+
+            <h4><a href="/index.html">Personal</a></h4>
+
+            <div class="sec menu-sec">
+                <h5 class="orange-title">MENU</h5>
+                <ul>
+                    <li><a class="a-white" href="#">About</a></li>
+                    <li><a class="a-white" href="#">Services</a></li>
+                    <li><a class="a-white" href="#">Blog</a></li>
+                    <li><a class="a-white" href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="sec service-sec">
+                <h5 class="orange-title">SERVICE</h5>
+                <ul>
+                    <li><a class="a-white" href="#">Design</a></li>
+                    <li><a class="a-white" href="#">Development</a></li>
+                    <li><a class="a-white" href="#">Marketing</a></li>
+                    <li><a class="a-white" href="#">See More</a></li>
+                </ul>
+            </div>
+
+            <div class="social-media d-flex align-center justify-center gap-1">
+                <figure class="icon icon-orange icon-btn"><i class="bi bi-facebook"></i></figure>
+                <figure class="icon icon-orange icon-btn"><i class="bi bi-twitter"></i></figure>
+                <figure class="icon icon-orange icon-btn"><i class="bi bi-instagram"></i></figure>
+            </div>
+
+            <hr>
+
+            <div class="copyright d-flex flex-col gap-2 w-100">
+                <p class="p-gray">Copyright © 2022 Laaqiq. All Rights Reserved.</p>
+                <div class="conditions d-flex">
+                    <a class="a-white" href="#">Terms of Use</a>
+                    <a class="a-white" href="#">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+</body>
